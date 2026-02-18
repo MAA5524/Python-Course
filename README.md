@@ -1,84 +1,74 @@
-  <div class="section-card">
-    <h1>🐍 دوره جامع پایتون — از صفر تا شیءگرا 🚀</h1>
-    <h2>یک دوره‌ی پروژه‌محور و گام‌به‌گام با استفاده از Jupyter Notebook</h2>
-    <div class="container">
-      <div class="card blue">
-        <h3>🎯 هدف دوره</h3>
-        <ul>
-          <li><strong>شروع سریع و اصولی</strong> — از نصب ابزارها تا اولین خط کد</li>
-          <li><strong>یادگیری هسته‌ی زبان</strong> — داده‌ها، عملگرها، ساختار کد و کنترل جریان</li>
-          <li><strong>توابع و الگوهای متداول</strong> — لامبدا، آرگومان‌های پویا، مستندسازی</li>
-          <li><strong>کار با فایل‌ها</strong> — خواندن/نوشتن فایل‌های متنی و باینری با مثال‌های واقعی</li>
-          <li><strong>برنامه‌نویسی شیءگرا (OOP)</strong> — کلاس، ارث‌بری، چندریختی، متدهای ویژه</li>
-          <li><strong>تمرین‌های کاربردی</strong> — برای تثبیت مفاهیم و آماده‌سازی برای بازار کار</li>
-        </ul>
-      </div>
-      <div class="card orange">
-        <h3>🧰 پیش‌نیازها</h3>
-        <ul>
-          <li><strong>دانش اولیه کامپیوتر</strong> — نیازی به تجربه برنامه‌نویسی نیست!</li>
-          <li><strong>نصب VS Code یا JupyterLab</strong> — <a href="https://code.visualstudio.com/" target="_blank">دانلود VS Code</a></li>
-          <li><strong>نصب پایتون 3.10+</strong> — پیشنهاد: استفاده از <strong>Conda</strong></li>
-        </ul>
-        <h4>🔧 راه‌اندازی محیط با Conda</h4>
-        <pre><code>conda create -n py-course python=3.11 -y
-conda activate py-course
-pip install jupyter</code></pre>
-        <h4>▶️ اجرای نوت‌بوک‌ها</h4>
-        <p>در VS Code: افزونه‌های <strong>Python</strong> و <strong>Jupyter</strong> را نصب کنید و فایل‌های <code>.ipynb</code> را مستقیماً باز کنید.</p>
-      </div>
-      <div class="card green">
-        <h3>📁 ساختار پوشه‌ها</h3>
-        <table>
-          <tr>
-            <th></th>
-            <th>عنوان فصل</th>
-            <th>توضیح</th>
-          </tr>
-          <tr><td>📖</td><td><a href="./01%20introduction/">01 introduction</a></td><td>مقدمه و معرفی پایتون</td></tr>
-          <tr><td>⚙️</td><td><a href="./02%20Python%20Setup/">02 Python Setup</a></td><td>نصب و راه‌اندازی</td></tr>
-          <tr><td>🔢</td><td><a href="./03%20Data%20Type/">03 Data Type</a></td><td>انواع داده</td></tr>
-          <tr><td>🧱</td><td><a href="./04%20Code%20Structure/">04 Code Structure</a></td><td>ساختار کد</td></tr>
-          <tr><td>🔄</td><td><a href="./05%20Control%20Structure/">05 Control Structure</a></td><td>ساختارهای کنترلی</td></tr>
-          <tr><td>🧩</td><td><a href="./06%20Functions/">06 Functions</a></td><td>توابع</td></tr>
-          <tr><td>📂</td><td><a href="./07%20File%20Handling/">07 File Handling</a></td><td>مدیریت فایل‌ها</td></tr>
-          <tr><td>🧠</td><td><a href="./08%20OOP/">08 OOP</a></td><td>شیءگرایی</td></tr>
-          <tr><td>🛠️</td><td><a href="./09%20Projects/">09 Projects</a></td><td>پروژه‌های عملی</td></tr>
-        </table>
-      </div>
-      <div class="card purple">
-        <h3>📚 روش پیشنهادی مطالعه</h3>
-        <ol>
-          <li>پوشه‌ها را <strong>به ترتیب</strong> دنبال کنید.</li>
-          <li>هر نوت‌بوک را <strong>اجرا کنید</strong> و کدها را <strong>تغییر دهید</strong>.</li>
-          <li>تمرین‌های پایان هر فصل را <strong>انجام دهید</strong> و خروجی را تحلیل کنید.</li>
-          <li>از <strong>VS Code</strong> استفاده کنید و Kernel را روی <code>py-course</code> تنظیم کنید.</li>
-        </ol>
-      </div>
-      <div class="card red">
-        <h3>💡 نکات تکمیلی</h3>
-        <ul>
-          <li>همیشه نسخه پایتون و فعال بودن محیط Conda را چک کنید.</li>
-          <li>اگر نوت‌بوک اجرا نشد، Kernel را از بالای صفحه تغییر دهید.</li>
-          <li>برای رفع اشکال، ابتدا <code>pip list</code> و <code>python --version</code> را چک کنید.</li>
-        </ul>
-      </div>
-      <div class="card blue">
-        <h3>🤝 مشارکت و پشتیبانی</h3>
-        <p>✨ اگر پیشنهادی دارید یا با اشکالی مواجه شدید:</p>
-        <ul>
-          <li>➡️ یک <a href="https://github.com/yourusername/python-course/issues" target="_blank">Issue</a> ثبت کنید</li>
-          <li>➡️ یا مستقیماً در نوت‌بوک‌ها یادداشت بگذارید!</li>
-        </ul>
-        <p>⭐ اگر از این دوره استفاده کردید، لطفاً <strong>ستاره (Star)</strong> بزنید!</p>
-      </div>
-      <div class="card green">
-        <h3>📜 مجوز</h3>
-        <p>این پروژه تحت مجوز <a href="./LICENSE">MIT</a> منتشر شده است.</p>
-        <p>آزادانه استفاده، کپی و اصلاح کنید — فقط نام منبع را ذکر کنید 🙏</p>
-      </div>
+<div dir="rtl" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.8; color: #333;">
+
+  <div style="background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); padding: 30px; border-radius: 20px; text-align: center; color: white; margin-bottom: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <h1 style="margin: 0; font-size: 2.5em;">🐍 دوره جامع پایتون — از صفر تا شیءگرا</h1>
+    <p style="font-size: 1.2em; opacity: 0.9; margin-top: 10px;">یک دوره‌ی پروژه‌محور و گام‌به‌گام با استفاده از Jupyter Notebook 🚀</p>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+    <div style="flex: 1; min-width: 300px; background-color: #f0f7ff; border-right: 6px solid #2563eb; padding: 20px; border-radius: 12px;">
+      <h3 style="color: #1e40af; margin-top: 0;">🎯 هدف دوره</h3>
+      <ul style="padding-right: 20px;">
+        <li><strong>شروع سریع و اصولی</strong> — از نصب ابزارها تا اولین خط کد</li>
+        <li><strong>یادگیری هسته‌ی زبان</strong> — داده‌ها، عملگرها و ساختار کد</li>
+        <li><strong>توابع و الگوها</strong> — لامبدا، آرگومان‌های پویا و مستندسازی</li>
+        <li><strong>کار با فایل‌ها</strong> — خواندن و نوشتن فایل‌های متنی و باینری</li>
+        <li><strong>برنامه‌نویسی شیءگرا</strong> — کلاس، ارث‌بری و چندریختی</li>
+      </ul>
+    </div>
+    <div style="flex: 1; min-width: 300px; background-color: #fffaf0; border-right: 6px solid #f59e0b; padding: 20px; border-radius: 12px;">
+      <h3 style="color: #92400e; margin-top: 0;">🧰 پیش‌نیازها و نصب</h3>
+      <ul style="padding-right: 20px;">
+        <li>دانش اولیه کامپیوتر (بدون نیاز به پیش‌زمینه کدنویسی)</li>
+        <li>نصب <strong>VS Code</strong> یا <strong>JupyterLab</strong></li>
+        <li>نصب پایتون نسخه +3.10</li>
+      </ul>
+      <p style="margin-bottom: 5px;"><strong>🔧 گام‌های راه‌اندازی در ترمینال:</strong></p>
+      <pre dir="ltr" style="background: #1e293b; color: #f8fafc; padding: 12px; border-radius: 8px; font-size: 0.9em;">
+python -m venv .venv
+.venv\Scripts\activate
+source .venv/bin/activate
+pip install jupyter -i https://mirror-pypi.runflare.com/simpler</pre>
     </div>
   </div>
 
-</body>
-</html>
+  <div style="margin-top: 30px; background-color: #f5f3ff; border-right: 6px solid #7c3aed; padding: 20px; border-radius: 12px; text-align: center;">
+    <h3 style="color: #5b21b6; margin-top: 0;">🗺️ نقشه راه یادگیری هوش مصنوعی</h3>
+    <p>این دوره، اولین گام از نقشه راه جامع تیم ما برای ورود به دنیای هوش مصنوعی است:</p>
+    <div style="font-weight: bold; font-size: 1.1em; direction: rtl; color: #4c1d95; margin-top: 10px;">
+      📍 پایتون مقدماتی ⬅️ ریاضیات هوش مصنوعی ⬅️ پردازش داده ⬅️ یادگیری ماشین ⬅️ پردازش متن و تصویر
+    </div>
+  </div>
+
+  <div style="margin-top: 30px; background-color: #f0fdf4; border-right: 6px solid #16a34a; padding: 20px; border-radius: 12px;">
+    <h3 style="color: #166534; margin-top: 0;">📁 سرفصل‌های دوره</h3>
+    <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 10px; overflow: hidden; margin-top: 15px;">
+      <thead>
+        <tr style="background-color: #16a34a; color: white;">
+          <th style="padding: 12px; border: 1px solid #e5e7eb;">فصل</th>
+          <th style="padding: 12px; border: 1px solid #e5e7eb;">موضوع (لینک به پوشه)</th>
+          <th style="padding: 12px; border: 1px solid #e5e7eb;">توضیحات</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td style="text-align:center; padding:10px; border:1px solid #e5e7eb;">01</td><td style="padding:10px; border:1px solid #e5e7eb;"><a href="./01%20introduction/">Introduction</a></td><td style="padding:10px; border:1px solid #e5e7eb;">آشنایی با پایتون</td></tr>
+        <tr><td style="text-align:center; padding:10px; border:1px solid #e5e7eb;">02</td><td style="padding:10px; border:1px solid #e5e7eb;"><a href="./02%20Python%20Setup/">Python Setup</a></td><td style="padding:10px; border:1px solid #e5e7eb;">نصب محیط کار</td></tr>
+        <tr><td style="text-align:center; padding:10px; border:1px solid #e5e7eb;">03</td><td style="padding:10px; border:1px solid #e5e7eb;"><a href="./03%20Data%20Type/">Data Type</a></td><td style="padding:10px; border:1px solid #e5e7eb;">شناخت متغیرها</td></tr>
+        <tr><td style="text-align:center; padding:10px; border:1px solid #e5e7eb;">04</td><td style="padding:10px; border:1px solid #e5e7eb;"><a href="./04%20Code%20Structure%20and%20Syntax/">Code Structure</a></td><td style="padding:10px; border:1px solid #e5e7eb;">سینتکس و بدنه کد</td></tr>
+        <tr><td style="text-align:center; padding:10px; border:1px solid #e5e7eb;">05</td><td style="padding:10px; border:1px solid #e5e7eb;"><a href="./05%20Control%20Structure/">Control Structure</a></td><td style="padding:10px; border:1px solid #e5e7eb;">شرط‌ها و حلقه‌ها</td></tr>
+        <tr><td style="text-align:center; padding:10px; border:1px solid #e5e7eb;">06</td><td style="padding:10px; border:1px solid #e5e7eb;"><a href="./06%20Functions/">Functions</a></td><td style="padding:10px; border:1px solid #e5e7eb;">توابع و ماژول‌ها</td></tr>
+        <tr><td style="text-align:center; padding:10px; border:1px solid #e5e7eb;">07</td><td style="padding:10px; border:1px solid #e5e7eb;"><a href="./07%20File%20Handling/">File Handling</a></td><td style="padding:10px; border:1px solid #e5e7eb;">کار با فایل‌ها</td></tr>
+        <tr><td style="text-align:center; padding:10px; border:1px solid #e5e7eb;">08</td><td style="padding:10px; border:1px solid #e5e7eb;"><a href="./08%20Object%20Oriented%20Programming/">OOP</a></td><td style="padding:10px; border:1px solid #e5e7eb;">شیءگرایی پیشرفته</td></tr>
+        <tr><td style="text-align:center; padding:10px; border:1px solid #e5e7eb;">09</td><td style="padding:10px; border:1px solid #e5e7eb;"><a href="./09%20Projects/">Projects</a></td><td style="padding:10px; border:1px solid #e5e7eb;">پروژه‌های عملی</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div style="margin-top: 30px; text-align: center; border: 2px dashed #cbd5e1; padding: 20px; border-radius: 15px;">
+    <p>🌟 اگر این آموزش‌ها برای شما مفید بود، لطفاً با دادن <strong>ستاره (Star)</strong> به این ریپازیتوری ما را خوشحال کنید!</p>
+    <p>🤝 پیشنهادی دارید؟ یک <strong>Issue</strong> باز کنید یا <strong>Pull Request</strong> بفرستید.</p>
+    <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 15px 0;">
+    <p style="font-size: 0.9em; color: #64748b;">⚖️ منتشر شده تحت مجوز <strong>MIT</strong> | به امید پیشرفت جامعه هوش مصنوعی ایران</p>
+  </div>
+
+</div>
