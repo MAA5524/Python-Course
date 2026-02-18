@@ -32,14 +32,6 @@ pip install jupyter -i https://mirror-pypi.runflare.com/simpler</pre>
     </div>
   </div>
 
-  <div style="margin-top: 30px; background-color: #f5f3ff; border-right: 6px solid #7c3aed; padding: 20px; border-radius: 12px; text-align: center;">
-    <h3 style="color: #5b21b6; margin-top: 0;">🗺️ نقشه راه یادگیری هوش مصنوعی</h3>
-    <p>این دوره، اولین گام از نقشه راه جامع تیم ما برای ورود به دنیای هوش مصنوعی است:</p>
-    <div style="font-weight: bold; font-size: 1.1em; direction: rtl; color: #4c1d95; margin-top: 10px;">
-      📍 پایتون مقدماتی ⬅️ ریاضیات هوش مصنوعی ⬅️ پردازش داده ⬅️ یادگیری ماشین ⬅️ پردازش متن و تصویر
-    </div>
-  </div>
-
   <div style="margin-top: 30px; background-color: #f0fdf4; border-right: 6px solid #16a34a; padding: 20px; border-radius: 12px;">
     <h3 style="color: #166534; margin-top: 0;">📁 سرفصل‌های دوره</h3>
     <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 10px; overflow: hidden; margin-top: 15px;">
