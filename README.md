@@ -26,8 +26,8 @@
       <p style="margin-bottom: 5px;"><strong>🔧 گام‌های راه‌اندازی در ترمینال:</strong></p>
       <pre dir="ltr" style="background: #1e293b; color: #f8fafc; padding: 12px; border-radius: 8px; font-size: 0.9em;">
 python -m venv .venv
-.venv\Scripts\activate
-source .venv/bin/activate
+.venv\Scripts\activate # for windows
+source .venv/bin/activate # for mac or linux
 pip install jupyter -i https://mirror-pypi.runflare.com/simpler</pre>
     </div>
   </div>
