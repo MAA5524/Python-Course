@@ -1,0 +1,4 @@
+Welcome to Python file reading.
+This is the second line.
+Here is the third line.
+End of the file.
